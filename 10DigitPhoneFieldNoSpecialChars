@@ -1,0 +1,19 @@
+RIGHT(
+    (SUBSTITUTE( 
+        SUBSTITUTE(
+            SUBSTITUTE(
+                SUBSTITUTE( 
+                    SUBSTITUTE( 
+                        SUBSTITUTE( 
+                            SUBSTITUTE(
+                                    Phone,
+                                    "+", ""),
+                                "(", ""),
+                            ")", ""),
+                        "-", ""),
+                    " ", ""),                
+                ".", ""),
+        "/", "")
+    ),
+    10
+)
